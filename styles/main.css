@@ -1,0 +1,77 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 8, 2016, 12:04:54 AM
+    Author     : harshilkumar
+*/
+
+.before_reverse, .after_reverse, .file_uploader, .border_class, .rwd_image_container{
+    border: 1px solid #d69024;
+    padding: 2%;
+    margin: 2%;
+    border-radius: 10px;
+}
+.page_title {
+    text-align: center;
+    font-size: 2rem;
+    font-family: fantasy;
+    border: 2px solid #b38125;
+    margin: 0px 2%;
+    border-radius: 20px;
+}
+input {
+    background-color: antiquewhite;
+    border: 1px solid #dad9d9;
+}
+button{
+    padding: 10px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover { 
+    background-color: #7171cc;
+    color: white;
+}
+#image img {
+    min-width: 100%;
+    width: 100%;
+    height: auto;
+}
+// To display answera screenshot responsive way.
+@media only screen and (max-width: 480px) {
+    .column_first, .column_second {
+        width: 100%;
+        display: block;
+    }
+    .page_title {
+        padding: 10px;
+    }
+    button{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .column_first, .column_second {
+        width: 100%;
+        display: block;
+    }
+    .page_title {
+        padding: 10px;
+    }
+    button{
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 769px) {
+    .column_first, .column_second {
+        width: 48%;
+        display: inline-block;
+        vertical-align: top;
+    }
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Give M random non-negative integers.</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="../js/libs/jquery/jquery.js" type="text/javascript"></script>
+        <script src="../scripts/random_number.js" type="text/javascript"></script>
+        <link href="../styles/main.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div class="page_title">Give M random non-negative integers less than some value N.</div>
+        <div>
+            <div class="border_class">
+                <span>Enter the value that to compare(N): </span>
+                <input type="number" name="n_num" id="n_val" value="0"/>
+            </div>
+            <div class="border_class">
+                <span>Enter the value that many numbers you want to return (M): </span>
+                <input type="number" name="m_random_values" id="m_val" value="0"/>
+            </div>
+            <div class="border_class">
+                <span> This is M random numbers less than N.</span>
+                <span id="m_rand_nums"></span>
+            </div>
+            <div class="border_class">
+                <button id="_submit_button">Get the M non-negative values less than N</button>
+            </div>
+        </div>
+    </body>
+</html>
